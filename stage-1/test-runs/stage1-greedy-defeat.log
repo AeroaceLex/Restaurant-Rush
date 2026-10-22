@@ -1,0 +1,475 @@
+==============================================================================
+RESTAURANT RUSH - you are the manager
+==============================================================================
+Turns: 18   Tables: 2   Staff: Waiter x1, Chef x1, Cashier x1   Seed: 2002
+Customers arrive at the start of turns 1, 4, 7, 10, 13 and 16.
+Menu:
+  - Salad ($9.00, 1 unit)
+  - Burger ($15.00, 1 unit)
+  - Pasta ($18.00, 2 units)
+Goal after turn 18: at least 4 paid customers AND revenue at least $45.00 AND average satisfaction of paid customers at least 60.
+Customers choose their own food. Type a task number or a command; 0 or 'wait' skips.
+
+==============================================================================
+TURN 1 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C1 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C1  Regular  satisfaction 100
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 100) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 100) at T2
+  0) wait
+Enter a number or a command > 1
+  Waiter seats C1 at T1.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 1: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 1/18
+
+==============================================================================
+TURN 2 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue: (empty)
+Tables:
+  T1  C1  Regular  satisfaction  92  seated, waiting to order  no order yet
+  T2  free
+Staff tasks available:
+  Waiter:  order C1
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) order C1       take the order of C1 (Regular, satisfaction 92)
+  0) wait
+Enter a number or a command > 1
+  Waiter takes C1's order: C1 chooses Pasta ($18.00, 2 units). Bill locked at $18.00.
+Chef - choose a task:
+  1) cook C1        work on C1's Pasta (PLACED 0/2)
+  0) wait
+Enter a number or a command > 1
+  Chef works on C1's Pasta: unit 1 of 2 done.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 2: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 2/18
+
+==============================================================================
+TURN 3 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue: (empty)
+Tables:
+  T1  C1  Regular  satisfaction  84  waiting for food          Pasta PREPARING 1/2, bill $18.00
+  T2  free
+Staff tasks available:
+  Waiter:  none (wait)
+  Chef:    cook C1
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+  Waiter has no available task and waits.
+Chef - choose a task:
+  1) cook C1        work on C1's Pasta (PREPARING 1/2)
+  0) wait
+Enter a number or a command > 1
+  Chef works on C1's Pasta: unit 2 of 2 done. The order is READY (it can be served next turn at the earliest).
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 3: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 3/18
+
+==============================================================================
+TURN 4 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C2 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C2  Regular  satisfaction 100
+Tables:
+  T1  C1  Regular  satisfaction  76  waiting for food          Pasta READY, bill $18.00
+  T2  free
+Staff tasks available:
+  Waiter:  seat C2 T2 | serve C1
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C2 T2     seat C2 (Regular, satisfaction 100) at T2
+  2) serve C1       serve Pasta to C1 (Regular, satisfaction 76)
+  0) wait
+Enter a number or a command > 0
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 4: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 4/18
+
+==============================================================================
+TURN 5 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C2  Regular  satisfaction  92
+Tables:
+  T1  C1  Regular  satisfaction  68  waiting for food          Pasta READY, bill $18.00
+  T2  free
+Staff tasks available:
+  Waiter:  seat C2 T2 | serve C1
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C2 T2     seat C2 (Regular, satisfaction 92) at T2
+  2) serve C1       serve Pasta to C1 (Regular, satisfaction 68)
+  0) wait
+Enter a number or a command > 1
+  Waiter seats C2 at T2.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 5: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 5/18
+
+==============================================================================
+TURN 6 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue: (empty)
+Tables:
+  T1  C1  Regular  satisfaction  60  waiting for food          Pasta READY, bill $18.00
+  T2  C2  Regular  satisfaction  84  seated, waiting to order  no order yet
+Staff tasks available:
+  Waiter:  order C2 | serve C1
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) order C2       take the order of C2 (Regular, satisfaction 84)
+  2) serve C1       serve Pasta to C1 (Regular, satisfaction 60)
+  0) wait
+Enter a number or a command > 1
+  Waiter takes C2's order: C2 chooses Salad ($9.00, 1 unit). Bill locked at $9.00.
+Chef - choose a task:
+  1) cook C2        work on C2's Salad (PLACED 0/1)
+  0) wait
+Enter a number or a command > 1
+  Chef works on C2's Salad: unit 1 of 1 done. The order is READY (it can be served next turn at the earliest).
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 6: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 6/18
+
+==============================================================================
+TURN 7 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C3 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C3  Regular  satisfaction 100
+Tables:
+  T1  C1  Regular  satisfaction  52  waiting for food          Pasta READY, bill $18.00
+  T2  C2  Regular  satisfaction  76  waiting for food          Salad READY, bill $9.00
+Staff tasks available:
+  Waiter:  serve C1 | serve C2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) serve C1       serve Pasta to C1 (Regular, satisfaction 52)
+  2) serve C2       serve Salad to C2 (Regular, satisfaction 76)
+  0) wait
+Enter a number or a command > 1
+  Waiter serves Pasta to C1: order SERVED. C1 starts eating.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 7: served 1 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 7/18
+
+==============================================================================
+TURN 8 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C3  Regular  satisfaction  92
+Tables:
+  T1  C1  Regular  satisfaction  52  eating                    Pasta SERVED, bill $18.00
+  T2  C2  Regular  satisfaction  68  waiting for food          Salad READY, bill $9.00
+Staff tasks available:
+  Waiter:  serve C2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) serve C2       serve Salad to C2 (Regular, satisfaction 68)
+  0) wait
+Enter a number or a command > 1
+  Waiter serves Salad to C2: order SERVED. C2 starts eating.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  C1 finishes eating and is READY_TO_PAY (pays next turn at the earliest).
+------------------------------------------------------------------------------
+End of turn 8: served 2 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 8/18
+
+==============================================================================
+TURN 9 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C3  Regular  satisfaction  84
+Tables:
+  T1  C1  Regular  satisfaction  52  ready to pay              Pasta SERVED, bill $18.00
+  T2  C2  Regular  satisfaction  68  eating                    Salad SERVED, bill $9.00
+Staff tasks available:
+  Waiter:  none (wait)
+  Chef:    none (wait)
+  Cashier: automatic - will charge C1 $18.00
+-- Manager choices -----------------------------------------------------------
+  Waiter has no available task and waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  Cashier collects $18.00 from C1: PAID, satisfaction 52 recorded, table freed.
+  C2 finishes eating and is READY_TO_PAY (pays next turn at the earliest).
+------------------------------------------------------------------------------
+End of turn 9: served 2 | unhappy departures 0 | paid 1 | revenue $18.00 | avg satisfaction 52.0 | turns used 9/18
+
+==============================================================================
+TURN 10 of 18   |   Revenue $18.00   |   Avg satisfaction (paid) 52.0
+==============================================================================
+  Arrival: C4 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C3  Regular  satisfaction  76
+  C4  Regular  satisfaction 100
+Tables:
+  T1  free
+  T2  C2  Regular  satisfaction  68  ready to pay              Salad SERVED, bill $9.00
+Staff tasks available:
+  Waiter:  seat C3 T1 | seat C4 T1
+  Chef:    none (wait)
+  Cashier: automatic - will charge C2 $9.00
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C3 T1     seat C3 (Regular, satisfaction 76) at T1
+  2) seat C4 T1     seat C4 (Regular, satisfaction 100) at T1
+  0) wait
+Enter a number or a command > 1
+  Waiter seats C3 at T1.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  Cashier collects $9.00 from C2: PAID, satisfaction 68 recorded, table freed.
+------------------------------------------------------------------------------
+End of turn 10: served 2 | unhappy departures 0 | paid 2 | revenue $27.00 | avg satisfaction 60.0 | turns used 10/18
+
+==============================================================================
+TURN 11 of 18   |   Revenue $27.00   |   Avg satisfaction (paid) 60.0
+==============================================================================
+Waiting queue:
+  C4  Regular  satisfaction  92
+Tables:
+  T1  C3  Regular  satisfaction  68  seated, waiting to order  no order yet
+  T2  free
+Staff tasks available:
+  Waiter:  seat C4 T2 | order C3
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C4 T2     seat C4 (Regular, satisfaction 92) at T2
+  2) order C3       take the order of C3 (Regular, satisfaction 68)
+  0) wait
+Enter a number or a command > 1
+  Waiter seats C4 at T2.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 11: served 2 | unhappy departures 0 | paid 2 | revenue $27.00 | avg satisfaction 60.0 | turns used 11/18
+
+==============================================================================
+TURN 12 of 18   |   Revenue $27.00   |   Avg satisfaction (paid) 60.0
+==============================================================================
+Waiting queue: (empty)
+Tables:
+  T1  C3  Regular  satisfaction  60  seated, waiting to order  no order yet
+  T2  C4  Regular  satisfaction  84  seated, waiting to order  no order yet
+Staff tasks available:
+  Waiter:  order C3 | order C4
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) order C3       take the order of C3 (Regular, satisfaction 60)
+  2) order C4       take the order of C4 (Regular, satisfaction 84)
+  0) wait
+Enter a number or a command > 1
+  Waiter takes C3's order: C3 chooses Salad ($9.00, 1 unit). Bill locked at $9.00.
+Chef - choose a task:
+  1) cook C3        work on C3's Salad (PLACED 0/1)
+  0) wait
+Enter a number or a command > 1
+  Chef works on C3's Salad: unit 1 of 1 done. The order is READY (it can be served next turn at the earliest).
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 12: served 2 | unhappy departures 0 | paid 2 | revenue $27.00 | avg satisfaction 60.0 | turns used 12/18
+
+==============================================================================
+TURN 13 of 18   |   Revenue $27.00   |   Avg satisfaction (paid) 60.0
+==============================================================================
+  Arrival: C5 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C5  Regular  satisfaction 100
+Tables:
+  T1  C3  Regular  satisfaction  52  waiting for food          Salad READY, bill $9.00
+  T2  C4  Regular  satisfaction  76  seated, waiting to order  no order yet
+Staff tasks available:
+  Waiter:  order C4 | serve C3
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) order C4       take the order of C4 (Regular, satisfaction 76)
+  2) serve C3       serve Salad to C3 (Regular, satisfaction 52)
+  0) wait
+Enter a number or a command > 1
+  Waiter takes C4's order: C4 chooses Pasta ($18.00, 2 units). Bill locked at $18.00.
+Chef - choose a task:
+  1) cook C4        work on C4's Pasta (PLACED 0/2)
+  0) wait
+Enter a number or a command > 1
+  Chef works on C4's Pasta: unit 1 of 2 done.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 13: served 2 | unhappy departures 0 | paid 2 | revenue $27.00 | avg satisfaction 60.0 | turns used 13/18
+
+==============================================================================
+TURN 14 of 18   |   Revenue $27.00   |   Avg satisfaction (paid) 60.0
+==============================================================================
+Waiting queue:
+  C5  Regular  satisfaction  92
+Tables:
+  T1  C3  Regular  satisfaction  44  waiting for food          Salad READY, bill $9.00
+  T2  C4  Regular  satisfaction  68  waiting for food          Pasta PREPARING 1/2, bill $18.00
+Staff tasks available:
+  Waiter:  serve C3
+  Chef:    cook C4
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) serve C3       serve Salad to C3 (Regular, satisfaction 44)
+  0) wait
+Enter a number or a command > 1
+  Waiter serves Salad to C3: order SERVED. C3 starts eating.
+Chef - choose a task:
+  1) cook C4        work on C4's Pasta (PREPARING 1/2)
+  0) wait
+Enter a number or a command > 1
+  Chef works on C4's Pasta: unit 2 of 2 done. The order is READY (it can be served next turn at the earliest).
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 14: served 3 | unhappy departures 0 | paid 2 | revenue $27.00 | avg satisfaction 60.0 | turns used 14/18
+
+==============================================================================
+TURN 15 of 18   |   Revenue $27.00   |   Avg satisfaction (paid) 60.0
+==============================================================================
+Waiting queue:
+  C5  Regular  satisfaction  84
+Tables:
+  T1  C3  Regular  satisfaction  44  eating                    Salad SERVED, bill $9.00
+  T2  C4  Regular  satisfaction  60  waiting for food          Pasta READY, bill $18.00
+Staff tasks available:
+  Waiter:  serve C4
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) serve C4       serve Pasta to C4 (Regular, satisfaction 60)
+  0) wait
+Enter a number or a command > 1
+  Waiter serves Pasta to C4: order SERVED. C4 starts eating.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  C3 finishes eating and is READY_TO_PAY (pays next turn at the earliest).
+------------------------------------------------------------------------------
+End of turn 15: served 4 | unhappy departures 0 | paid 2 | revenue $27.00 | avg satisfaction 60.0 | turns used 15/18
+
+==============================================================================
+TURN 16 of 18   |   Revenue $27.00   |   Avg satisfaction (paid) 60.0
+==============================================================================
+  Arrival: C6 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C5  Regular  satisfaction  76
+  C6  Regular  satisfaction 100
+Tables:
+  T1  C3  Regular  satisfaction  44  ready to pay              Salad SERVED, bill $9.00
+  T2  C4  Regular  satisfaction  60  eating                    Pasta SERVED, bill $18.00
+Staff tasks available:
+  Waiter:  none (wait)
+  Chef:    none (wait)
+  Cashier: automatic - will charge C3 $9.00
+-- Manager choices -----------------------------------------------------------
+  Waiter has no available task and waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  Cashier collects $9.00 from C3: PAID, satisfaction 44 recorded, table freed.
+  C4 finishes eating and is READY_TO_PAY (pays next turn at the earliest).
+------------------------------------------------------------------------------
+End of turn 16: served 4 | unhappy departures 0 | paid 3 | revenue $36.00 | avg satisfaction 54.7 | turns used 16/18
+
+==============================================================================
+TURN 17 of 18   |   Revenue $36.00   |   Avg satisfaction (paid) 54.7
+==============================================================================
+Waiting queue:
+  C5  Regular  satisfaction  68
+  C6  Regular  satisfaction  92
+Tables:
+  T1  free
+  T2  C4  Regular  satisfaction  60  ready to pay              Pasta SERVED, bill $18.00
+Staff tasks available:
+  Waiter:  seat C5 T1 | seat C6 T1
+  Chef:    none (wait)
+  Cashier: automatic - will charge C4 $18.00
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C5 T1     seat C5 (Regular, satisfaction 68) at T1
+  2) seat C6 T1     seat C6 (Regular, satisfaction 92) at T1
+  0) wait
+Enter a number or a command > 1
+  Waiter seats C5 at T1.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  Cashier collects $18.00 from C4: PAID, satisfaction 60 recorded, table freed.
+------------------------------------------------------------------------------
+End of turn 17: served 4 | unhappy departures 0 | paid 4 | revenue $54.00 | avg satisfaction 56.0 | turns used 17/18
+
+==============================================================================
+TURN 18 of 18   |   Revenue $54.00   |   Avg satisfaction (paid) 56.0
+==============================================================================
+Waiting queue:
+  C6  Regular  satisfaction  84
+Tables:
+  T1  C5  Regular  satisfaction  60  seated, waiting to order  no order yet
+  T2  free
+Staff tasks available:
+  Waiter:  seat C6 T2 | order C5
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C6 T2     seat C6 (Regular, satisfaction 84) at T2
+  2) order C5       take the order of C5 (Regular, satisfaction 60)
+  0) wait
+Enter a number or a command > 1
+  Waiter seats C6 at T2.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 18: served 4 | unhappy departures 0 | paid 4 | revenue $54.00 | avg satisfaction 56.0 | turns used 18/18
+
+==============================================================================
+GAME OVER - DEFEAT. At least one target was missed.
+==============================================================================
+  [ MET  ] Paid customers                                  4  (target >= 4)
+  [ MET  ] Revenue                                    $54.00  (target >= $45.00)
+  [MISSED] Average satisfaction of paid customers       56.0  (target >= 60)
+Customers:
+  C1  Regular  paid and left             satisfaction  52  Pasta PAID, bill $18.00
+  C2  Regular  paid and left             satisfaction  68  Salad PAID, bill $9.00
+  C3  Regular  paid and left             satisfaction  44  Salad PAID, bill $9.00
+  C4  Regular  paid and left             satisfaction  60  Pasta PAID, bill $18.00
+  C5  Regular  seated, waiting to order  satisfaction  52  no order yet
+  C6  Regular  seated, waiting to order  satisfaction  76  no order yet

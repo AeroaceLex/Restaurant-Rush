@@ -1,0 +1,576 @@
+==============================================================================
+RESTAURANT RUSH - you are the manager
+==============================================================================
+Turns: 18   Tables: 2   Staff: Waiter x1, Chef x1, Cashier x1   Seed: 2002
+Customers arrive at the start of turns 1, 4, 7, 10, 13 and 16.
+Menu:
+  - Salad ($9.00, 1 unit)
+  - Burger ($15.00, 1 unit)
+  - Pasta ($18.00, 2 units)
+Goal after turn 18: at least 4 paid customers AND revenue at least $45.00 AND average satisfaction of paid customers at least 60.
+Customers choose their own food. Type a task number or a command; 0 or 'wait' skips.
+
+==============================================================================
+TURN 1 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C1 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C1  Regular  satisfaction 100
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 100) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 100) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 1: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 1/18
+
+==============================================================================
+TURN 2 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  92
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 92) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 92) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 2: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 2/18
+
+==============================================================================
+TURN 3 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  84
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 84) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 84) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 3: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 3/18
+
+==============================================================================
+TURN 4 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C2 (VIP, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C1  Regular  satisfaction  76
+  C2  VIP      satisfaction 100
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 76) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 76) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 100) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 100) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 4: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 4/18
+
+==============================================================================
+TURN 5 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  68
+  C2  VIP      satisfaction  95
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 68) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 68) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 95) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 95) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 5: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 5/18
+
+==============================================================================
+TURN 6 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  60
+  C2  VIP      satisfaction  90
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 60) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 60) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 90) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 90) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 6: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 6/18
+
+==============================================================================
+TURN 7 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C3 (Critic, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C1  Regular  satisfaction  52
+  C2  VIP      satisfaction  85
+  C3  Critic   satisfaction 100
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 52) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 52) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 85) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 85) at T2
+  5) seat C3 T1     seat C3 (Critic, satisfaction 100) at T1
+  6) seat C3 T2     seat C3 (Critic, satisfaction 100) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 7: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 7/18
+
+==============================================================================
+TURN 8 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  44
+  C2  VIP      satisfaction  80
+  C3  Critic   satisfaction  88
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 44) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 44) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 80) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 80) at T2
+  5) seat C3 T1     seat C3 (Critic, satisfaction 88) at T1
+  6) seat C3 T2     seat C3 (Critic, satisfaction 88) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 8: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 8/18
+
+==============================================================================
+TURN 9 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  36
+  C2  VIP      satisfaction  75
+  C3  Critic   satisfaction  76
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 36) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 36) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 75) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 75) at T2
+  5) seat C3 T1     seat C3 (Critic, satisfaction 76) at T1
+  6) seat C3 T2     seat C3 (Critic, satisfaction 76) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 9: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 9/18
+
+==============================================================================
+TURN 10 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C4 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C1  Regular  satisfaction  28
+  C2  VIP      satisfaction  70
+  C3  Critic   satisfaction  64
+  C4  Regular  satisfaction 100
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2 | seat C4 T1 | seat C4 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 28) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 28) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 70) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 70) at T2
+  5) seat C3 T1     seat C3 (Critic, satisfaction 64) at T1
+  6) seat C3 T2     seat C3 (Critic, satisfaction 64) at T2
+  7) seat C4 T1     seat C4 (Regular, satisfaction 100) at T1
+  8) seat C4 T2     seat C4 (Regular, satisfaction 100) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 10: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 10/18
+
+==============================================================================
+TURN 11 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  20
+  C2  VIP      satisfaction  65
+  C3  Critic   satisfaction  52
+  C4  Regular  satisfaction  92
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2 | seat C4 T1 | seat C4 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 20) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 20) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 65) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 65) at T2
+  5) seat C3 T1     seat C3 (Critic, satisfaction 52) at T1
+  6) seat C3 T2     seat C3 (Critic, satisfaction 52) at T2
+  7) seat C4 T1     seat C4 (Regular, satisfaction 92) at T1
+  8) seat C4 T2     seat C4 (Regular, satisfaction 92) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 11: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 11/18
+
+==============================================================================
+TURN 12 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C1  Regular  satisfaction  12
+  C2  VIP      satisfaction  60
+  C3  Critic   satisfaction  40
+  C4  Regular  satisfaction  84
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2 | seat C4 T1 | seat C4 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 12) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 12) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 60) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 60) at T2
+  5) seat C3 T1     seat C3 (Critic, satisfaction 40) at T1
+  6) seat C3 T2     seat C3 (Critic, satisfaction 40) at T2
+  7) seat C4 T1     seat C4 (Regular, satisfaction 84) at T1
+  8) seat C4 T2     seat C4 (Regular, satisfaction 84) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 12: served 0 | unhappy departures 0 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 12/18
+
+==============================================================================
+TURN 13 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C5 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C1  Regular  satisfaction   4
+  C2  VIP      satisfaction  55
+  C3  Critic   satisfaction  28
+  C4  Regular  satisfaction  76
+  C5  Regular  satisfaction 100
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C1 T1 | seat C1 T2 | seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2 | seat C4 T1 | seat C4 T2 | seat C5 T1 | seat C5 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C1 T1     seat C1 (Regular, satisfaction 4) at T1
+  2) seat C1 T2     seat C1 (Regular, satisfaction 4) at T2
+  3) seat C2 T1     seat C2 (VIP, satisfaction 55) at T1
+  4) seat C2 T2     seat C2 (VIP, satisfaction 55) at T2
+  5) seat C3 T1     seat C3 (Critic, satisfaction 28) at T1
+  6) seat C3 T2     seat C3 (Critic, satisfaction 28) at T2
+  7) seat C4 T1     seat C4 (Regular, satisfaction 76) at T1
+  8) seat C4 T2     seat C4 (Regular, satisfaction 76) at T2
+  9) seat C5 T1     seat C5 (Regular, satisfaction 100) at T1
+  10) seat C5 T2     seat C5 (Regular, satisfaction 100) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  C1 (Regular) runs out of patience and leaves without paying.
+------------------------------------------------------------------------------
+End of turn 13: served 0 | unhappy departures 1 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 13/18
+
+==============================================================================
+TURN 14 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C2  VIP      satisfaction  50
+  C3  Critic   satisfaction  16
+  C4  Regular  satisfaction  68
+  C5  Regular  satisfaction  92
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2 | seat C4 T1 | seat C4 T2 | seat C5 T1 | seat C5 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C2 T1     seat C2 (VIP, satisfaction 50) at T1
+  2) seat C2 T2     seat C2 (VIP, satisfaction 50) at T2
+  3) seat C3 T1     seat C3 (Critic, satisfaction 16) at T1
+  4) seat C3 T2     seat C3 (Critic, satisfaction 16) at T2
+  5) seat C4 T1     seat C4 (Regular, satisfaction 68) at T1
+  6) seat C4 T2     seat C4 (Regular, satisfaction 68) at T2
+  7) seat C5 T1     seat C5 (Regular, satisfaction 92) at T1
+  8) seat C5 T2     seat C5 (Regular, satisfaction 92) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 14: served 0 | unhappy departures 1 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 14/18
+
+==============================================================================
+TURN 15 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C2  VIP      satisfaction  45
+  C3  Critic   satisfaction   4
+  C4  Regular  satisfaction  60
+  C5  Regular  satisfaction  84
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C2 T1 | seat C2 T2 | seat C3 T1 | seat C3 T2 | seat C4 T1 | seat C4 T2 | seat C5 T1 | seat C5 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C2 T1     seat C2 (VIP, satisfaction 45) at T1
+  2) seat C2 T2     seat C2 (VIP, satisfaction 45) at T2
+  3) seat C3 T1     seat C3 (Critic, satisfaction 4) at T1
+  4) seat C3 T2     seat C3 (Critic, satisfaction 4) at T2
+  5) seat C4 T1     seat C4 (Regular, satisfaction 60) at T1
+  6) seat C4 T2     seat C4 (Regular, satisfaction 60) at T2
+  7) seat C5 T1     seat C5 (Regular, satisfaction 84) at T1
+  8) seat C5 T2     seat C5 (Regular, satisfaction 84) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+  C3 (Critic) runs out of patience and leaves without paying.
+------------------------------------------------------------------------------
+End of turn 15: served 0 | unhappy departures 2 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 15/18
+
+==============================================================================
+TURN 16 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+  Arrival: C6 (Regular, satisfaction 100) joins the waiting queue.
+Waiting queue:
+  C2  VIP      satisfaction  40
+  C4  Regular  satisfaction  52
+  C5  Regular  satisfaction  76
+  C6  Regular  satisfaction 100
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C2 T1 | seat C2 T2 | seat C4 T1 | seat C4 T2 | seat C5 T1 | seat C5 T2 | seat C6 T1 | seat C6 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C2 T1     seat C2 (VIP, satisfaction 40) at T1
+  2) seat C2 T2     seat C2 (VIP, satisfaction 40) at T2
+  3) seat C4 T1     seat C4 (Regular, satisfaction 52) at T1
+  4) seat C4 T2     seat C4 (Regular, satisfaction 52) at T2
+  5) seat C5 T1     seat C5 (Regular, satisfaction 76) at T1
+  6) seat C5 T2     seat C5 (Regular, satisfaction 76) at T2
+  7) seat C6 T1     seat C6 (Regular, satisfaction 100) at T1
+  8) seat C6 T2     seat C6 (Regular, satisfaction 100) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 16: served 0 | unhappy departures 2 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 16/18
+
+==============================================================================
+TURN 17 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C2  VIP      satisfaction  35
+  C4  Regular  satisfaction  44
+  C5  Regular  satisfaction  68
+  C6  Regular  satisfaction  92
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C2 T1 | seat C2 T2 | seat C4 T1 | seat C4 T2 | seat C5 T1 | seat C5 T2 | seat C6 T1 | seat C6 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C2 T1     seat C2 (VIP, satisfaction 35) at T1
+  2) seat C2 T2     seat C2 (VIP, satisfaction 35) at T2
+  3) seat C4 T1     seat C4 (Regular, satisfaction 44) at T1
+  4) seat C4 T2     seat C4 (Regular, satisfaction 44) at T2
+  5) seat C5 T1     seat C5 (Regular, satisfaction 68) at T1
+  6) seat C5 T2     seat C5 (Regular, satisfaction 68) at T2
+  7) seat C6 T1     seat C6 (Regular, satisfaction 92) at T1
+  8) seat C6 T2     seat C6 (Regular, satisfaction 92) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 17: served 0 | unhappy departures 2 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 17/18
+
+==============================================================================
+TURN 18 of 18   |   Revenue $0.00   |   Avg satisfaction (paid) N/A
+==============================================================================
+Waiting queue:
+  C2  VIP      satisfaction  30
+  C4  Regular  satisfaction  36
+  C5  Regular  satisfaction  60
+  C6  Regular  satisfaction  84
+Tables:
+  T1  free
+  T2  free
+Staff tasks available:
+  Waiter:  seat C2 T1 | seat C2 T2 | seat C4 T1 | seat C4 T2 | seat C5 T1 | seat C5 T2 | seat C6 T1 | seat C6 T2
+  Chef:    none (wait)
+  Cashier: automatic - nobody is ready to pay yet
+-- Manager choices -----------------------------------------------------------
+Waiter - choose a task:
+  1) seat C2 T1     seat C2 (VIP, satisfaction 30) at T1
+  2) seat C2 T2     seat C2 (VIP, satisfaction 30) at T2
+  3) seat C4 T1     seat C4 (Regular, satisfaction 36) at T1
+  4) seat C4 T2     seat C4 (Regular, satisfaction 36) at T2
+  5) seat C5 T1     seat C5 (Regular, satisfaction 60) at T1
+  6) seat C5 T2     seat C5 (Regular, satisfaction 60) at T2
+  7) seat C6 T1     seat C6 (Regular, satisfaction 84) at T1
+  8) seat C6 T2     seat C6 (Regular, satisfaction 84) at T2
+  0) wait
+Enter a number or a command > wait
+  Waiter waits.
+  Chef has no available task and waits.
+-- Eating and payment --------------------------------------------------------
+------------------------------------------------------------------------------
+End of turn 18: served 0 | unhappy departures 2 | paid 0 | revenue $0.00 | avg satisfaction N/A | turns used 18/18
+
+==============================================================================
+GAME OVER - DEFEAT. At least one target was missed.
+==============================================================================
+  [MISSED] Paid customers                                  0  (target >= 4)
+  [MISSED] Revenue                                     $0.00  (target >= $45.00)
+  [MISSED] Average satisfaction of paid customers        N/A  (target >= 60)
+Customers:
+  C1  Regular  left unhappy              satisfaction   0  no order yet
+  C2  VIP      waiting for a table       satisfaction  25  no order yet
+  C3  Critic   left unhappy              satisfaction   0  no order yet
+  C4  Regular  waiting for a table       satisfaction  28  no order yet
+  C5  Regular  waiting for a table       satisfaction  52  no order yet
+  C6  Regular  waiting for a table       satisfaction  76  no order yet

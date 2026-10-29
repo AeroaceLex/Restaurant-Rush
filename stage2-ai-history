@@ -1,0 +1,97 @@
+# AI Use and Communication History — Tan Soon Kang
+
+**Project:** SC2002 Restaurant Rush  
+**Scope:** Stage 2 customer behaviour and testing  
+**AI tool:** ChatGPT / Codex  
+**Record type:** Simulated educational example generated retrospectively. These exchanges did not occur during implementation. No source code was inspected and no tests were executed for this example.
+
+## Exchange 1 — Extending the customer design
+
+### User prompt
+
+I’m responsible for Stage 2 of our Java Restaurant Rush project. Stage 1 already supports Regular customers. I need to add VIP customers who lose 5 satisfaction points per waiting turn and receive a 10% discount, and Critics who lose 12 points and pay full price. How should I extend the Customer class using inheritance and polymorphism without adding customer-type checks to the turn controller? All customers must follow the same ordering, serving and payment flow.
+
+### AI response
+
+Keep the common visit lifecycle in `Customer`, including satisfaction, seating, ordering and payment state. Introduce overridable methods for the behaviour that varies, such as:
+
+- `getSatisfactionLossPerTurn()`
+- `priceFor(MenuItem item)`
+- `chooseItem(Menu menu)`
+
+`RegularCustomer` returns a satisfaction loss of 8, `VipCustomer` returns 5, and `CriticCustomer` returns 12. Full-price billing can be the default implementation, with `VipCustomer` overriding it to apply the discount.
+
+The restaurant should call these methods through a `Customer` reference. Java dispatches each call to the appropriate implementation, so the turn controller does not need an `instanceof` chain or a switch on customer type.
+
+Register VIP and Critic factories in the arrival configuration while retaining six arrivals. Customer subclasses should supply their differences while sharing the existing service flow.
+
+## Exchange 2 — Defining the Critic’s behaviour
+
+### User prompt
+
+The assignment asks us to define and document a distinct order preference or service reaction for Critics. I’m considering making Critics always choose the most expensive menu item, which is Pasta in Stage 2. Is this a suitable rule, and how could I implement it through a customer method while allowing Regular and VIP customers to share seeded random food selection?
+
+### AI response
+
+Choosing the most expensive menu item is a suitable distinct preference if you document it clearly. In the Stage 2 menu, Pasta costs $18.00, so the Critic would choose Pasta.
+
+Place shared random food selection in `Customer.chooseItem()`, allowing Regular and VIP customers to inherit it. Override this method in `CriticCustomer` to find the menu item with the highest price.
+
+Compare prices rather than hard-coding the name “Pasta”. This lets the preference continue to work if the menu changes. Define a consistent tie rule, such as choosing the first highest-priced item in menu order.
+
+For random selection, preserve the existing seed and random-number usage when moving the method. Moving code into the base class should not unexpectedly change Regular customers’ choices. Keep food selection inside the customer objects; the manager should not select customers’ meals.
+
+## Exchange 3 — Testing customer behaviour
+
+### User prompt
+
+How should I test the Stage 2 customer types? Please suggest test cases and expected results for satisfaction loss, VIP discounts, Critic food selection and abandonment at zero satisfaction. Money must be stored as integer cents. Also explain how to check that existing Regular customer behaviour still works after the changes.
+
+### AI response
+
+Use focused checks for individual rules, followed by complete gameplay runs.
+
+| Check | Setup | Expected result |
+|---|---|---|
+| Regular patience | Unserved Regular starts at 100 | Satisfaction becomes 92 after one waiting turn |
+| VIP patience | Unserved VIP starts at 100 | Satisfaction becomes 95 |
+| Critic patience | Unserved Critic starts at 100 | Satisfaction becomes 88 |
+| VIP Salad price | Base price is 900 cents | Bill is 810 cents |
+| VIP Burger price | Base price is 1500 cents | Bill is 1350 cents |
+| VIP Pasta price | Base price is 1800 cents | Bill is 1620 cents |
+| Critic preference | Stage 2 menu contains Salad, Burger and Pasta | Critic selects Pasta |
+| Minimum satisfaction | Unserved Critic starts at 8 | Satisfaction reaches 0, never a negative value |
+| Abandonment | A seated customer reaches 0 | Customer leaves, table becomes available and no payment is recorded |
+| After service | Customer has been served | No further waiting satisfaction loss |
+
+Also check cancellation of any unfinished order when its customer abandons the restaurant.
+
+The base menu’s VIP discounts produce whole-cent amounts. To test rounding separately, use a synthetic price that produces a fractional cent and apply your documented rounding rule. For example, with nearest-cent half-up rounding, 905 cents discounted by 10% becomes 815 cents.
+
+For regression testing, compare Regular customer food choices before and after the refactor using the same seed, menu and customer identity. Replay Stage 1 against its own version to confirm its baseline still works. Complete Stage 2 results may differ because replacing Regular customers changes patience, pricing and preferences.
+
+These are proposed checks; their results must be recorded after execution.
+
+## Exchange 4 — Preparing reproducible evidence
+
+### User prompt
+
+Stage 2 must run independently, keep six arrivals, include at least one VIP and one Critic, and use the same victory conditions as Stage 1. How should I organise reproducible victory and defeat runs and compare the stage-1 and stage-2 versions? What evidence would help explain my customer-design changes and show that the original turn rules still work?
+
+### AI response
+
+Preserve an independently runnable Stage 2 version under the `stage-2` tag. Document which scheduled arrivals become VIP and Critic customers while retaining arrivals on turns 1, 4, 7, 10, 13 and 16.
+
+Save complete input sequences for a victory run and a defeat run. Record the seed, execution instructions and resulting output. Check that the game completes all 18 turns and evaluates the same three targets:
+
+- At least four paid customers.
+- Revenue of at least $45.00.
+- Average satisfaction of paid customers of at least 60.
+
+A useful defeat example misses one target while meeting the others, because it demonstrates that all three conditions are required. Confirm the actual outcome by running the script before describing it as evidence.
+
+Compare `stage-1` and `stage-2` and explain each changed class. The expected changes may include the new customer subclasses, shared food-selection behaviour and arrival registration. Confirm this against the actual comparison rather than assuming which files changed.
+
+Include checks showing that customers still follow the existing cooking, serving, eating and payment sequence. An invalid action must still preserve the staff task, and unpaid or abandoned orders must not contribute revenue.
+
+Keep actual AI prompts, full replies and follow-ups in chronological order on your personal GitHub branch. This simulated example should remain identified as retrospective material.

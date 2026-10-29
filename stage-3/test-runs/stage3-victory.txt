@@ -1,0 +1,33 @@
+n
+seat C1 T1
+order C1
+cook C1
+n
+serve C1
+n
+y
+seat C2 T2
+order C2
+cook C2
+cook C2
+serve C2
+seat C3 T1
+order C3
+cook C3
+cook C3
+cook C3
+seat C4 T2
+serve C3
+order C4
+cook C4
+serve C4
+seat C5 T1
+order C5
+cook C5
+cook C5
+serve C5
+seat C6 T2
+order C6
+cook C6
+cook C6
+cook C6

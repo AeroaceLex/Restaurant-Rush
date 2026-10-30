@@ -94,4 +94,3 @@ Compare `stage-1` and `stage-2` and explain each changed class. The expected cha
 
 Include checks showing that customers still follow the existing cooking, serving, eating and payment sequence. An invalid action must still preserve the staff task, and unpaid or abandoned orders must not contribute revenue.
 
-Keep actual AI prompts, full replies and follow-ups in chronological order on your personal GitHub branch. This simulated example should remain identified as retrospective material.

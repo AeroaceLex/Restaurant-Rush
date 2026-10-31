@@ -168,6 +168,21 @@ Replace this pending list with links to the submitted report and readable diagra
 
 Video link: **Pending final recording/upload.**
 
+The following timestamps are planned in the current report. Verify them against the final recording before submission.
+
+| Segment | Presenter | Planned timestamp |
+|---|---|---|
+| Launching the game | Lew En Xun | 02:00 |
+| Meaningful manager choices and constrained staff decisions | Lew En Xun | 02:00–03:15 |
+| READY → SERVED → eating → payment | Lew En Xun | 02:00–03:15 |
+| VIP or Critic behaviour | Tan Soon Kang | 03:15–04:15 |
+| Host, Happy Hour and combos | Liow Zi Hao Samuel, Harish Kumaran Solaiyan, Benjamin Lee Jun Hua | 04:15–06:00 |
+| Victory and defeat | Lew En Xun | 02:00–03:15 |
+| Class diagrams and stage comparisons | All members | 06:00–10:00 |
+| Selected use case and sequence diagram | Benjamin Lee Jun Hua | 10:00–13:00 |
+
+The approximately 15-minute recording must include a contribution from every member. Ensure the final recording also covers the overview, contributions and learning, and that the link remains accessible to graders.
+
 ## Individual AI communication histories
 
 Each member keeps full project-related prompts, replies and follow-up exchanges in chronological order on their own branch.
@@ -177,7 +192,7 @@ Each member keeps full project-related prompts, replies and follow-up exchanges 
 | Lew En Xun | [AeroaceLex-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/AeroaceLex-patch-1) | [stage1-ai-history.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/AeroaceLex-patch-1/stage1-ai-history.md) |
 | Tan Soon Kang | [soonkang-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/soonkang-patch-1) | [stage2-ai-history](https://github.com/AeroaceLex/Restaurant-Rush/blob/soonkang-patch-1/stage2-ai-history) |
 | Liow Zi Hao Samuel | [goodcodder-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/goodcodder-patch-1) | Pending upload or confirmed file link |
-| Harish Kumaran Solaiyan | [harishkumaran1405-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/harishkumaran1405-patch-1) | Current file: ai-history:stage-3:chat-01.md; rename to a Windows-compatible path and add its direct link |
+| Harish Kumaran Solaiyan | [harishkumaran1405-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/harishkumaran1405-patch-1) | [ai-history:stage-3:chat-01.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/harishkumaran1405-patch-1/ai-history%3Astage-3%3Achat-01.md) |
 | Benjamin Lee Jun Hua | [benjaminwe4-patch-1-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/benjaminwe4-patch-1-1) | [transcript.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/benjaminwe4-patch-1-1/transcript.md) |
 
 The group must check completeness and update these links after any rename. Signed original-work and individual GAI declarations accompany the final submission.

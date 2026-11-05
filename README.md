@@ -191,7 +191,7 @@ Each member keeps full project-related prompts, replies and follow-up exchanges 
 |---|---|---|
 | Lew En Xun | [AeroaceLex-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/AeroaceLex-patch-1) | [stage1-ai-history.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/AeroaceLex-patch-1/stage1-ai-history.md) |
 | Tan Soon Kang | [soonkang-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/soonkang-patch-1) | [stage2-ai-history](https://github.com/AeroaceLex/Restaurant-Rush/blob/soonkang-patch-1/stage2-ai-history) |
-| Liow Zi Hao Samuel | [goodcodder-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/goodcodder-patch-1) | [stage3-ai-history] (https://github.com/AeroaceLex/Restaurant-Rush/blob/2ab7c98a4be1d7d4c715853236dd7c8fb5062cbb/ai_history_stage3chat.md) |
+| Liow Zi Hao Samuel | [goodcodder-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/goodcodder-patch-1) | [stage3-ai-history](https://github.com/AeroaceLex/Restaurant-Rush/blob/2ab7c98a4be1d7d4c715853236dd7c8fb5062cbb/ai_history_stage3chat.md) |
 | Harish Kumaran Solaiyan | [harishkumaran1405-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/harishkumaran1405-patch-1) | [ai-history:stage-3:chat-01.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/harishkumaran1405-patch-1/ai-history%3Astage-3%3Achat-01.md) |
 | Benjamin Lee Jun Hua | [benjaminwe4-patch-1-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/benjaminwe4-patch-1-1) | [transcript.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/benjaminwe4-patch-1-1/transcript.md) |
 

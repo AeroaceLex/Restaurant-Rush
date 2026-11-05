@@ -172,14 +172,11 @@ The following timestamps are planned in the current report. Verify them against 
 
 | Segment | Presenter | Planned timestamp |
 |---|---|---|
-| Launching the game | Lew En Xun | 02:00 |
-| Meaningful manager choices and constrained staff decisions | Lew En Xun | 02:00–03:15 |
-| READY → SERVED → eating → payment | Lew En Xun | 02:00–03:15 |
-| VIP or Critic behaviour | Tan Soon Kang | 03:15–04:15 |
-| Host, Happy Hour and combos | Liow Zi Hao Samuel, Harish Kumaran Solaiyan, Benjamin Lee Jun Hua | 04:15–06:00 |
-| Victory and defeat | Lew En Xun | 02:00–03:15 |
-| Class diagrams and stage comparisons | All members | 06:00–10:00 |
-| Selected use case and sequence diagram | Benjamin Lee Jun Hua | 10:00–13:00 |
+| Game overview and the three stages | Lew En Xun | 0:00-2:00 |
+| Gameplay demonstration and key outcomes |  Tan Soon Kang | 2:00-6:36 |
+| Class diagrams and evidence of stage changes | Liow Zi Hao Samuel | 06:36–09:57 |
+| Selected use case and sequence diagram | Harish Kumaran Solaiyan | 09:57–12:30 |
+| Individual contributions and key learning | Benjamin Lee Jun Hua | 12:30– 14:16 |
 
 The approximately 15-minute recording must include a contribution from every member. Ensure the final recording also covers the overview, contributions and learning, and that the link remains accessible to graders.
 

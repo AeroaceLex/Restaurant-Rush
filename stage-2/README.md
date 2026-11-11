@@ -4,7 +4,7 @@ A turn-based restaurant management game for the command line, written in Java fo
 group assignment. You are the manager. Each turn you decide what the Waiter and the Chef do, and
 you try to reach the targets by the end of turn 18.
 
-- **Repository:** `<add the GitHub URL here>`
+- **Repository:** https://github.com/AeroaceLex/Restaurant-Rush/tree/main/stage-2
 - **This version:** Stage 2, customer behaviour (tag `stage-2`)
 
 ## Build and run
@@ -123,8 +123,6 @@ seed 2002.
 | 1 | `stage-1` | Regular customers, menu, Waiter, Chef, Cashier, full turn sequence, both endings |
 | 2 | `stage-2` | VIP and Critic customers |
 
-Compare links (replace `<owner>/<repo>` once the repository is on GitHub):
-`https://github.com/<owner>/<repo>/compare/stage-1...stage-2`
 
 ### Stage 1 -> Stage 2
 

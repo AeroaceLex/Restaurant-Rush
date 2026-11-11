@@ -154,21 +154,10 @@ Customer behaviour is dispatched through customer objects. The controller, resta
 
 The existing customer subclasses, Order, Chef and Cashier continue to use the same abstractions. ComboMeal works through MenuItem, and the Critic's existing preference selects the most expensive combo without a new customer-type check.
 
-## Report and UML diagrams
-
-Pending final upload:
-
-- Final PDF report with individual reflections.
-- Stage 1, Stage 2 and Stage 3 class diagrams.
-- Stage 3 sequence diagram covering the VIP and Happy Hour scenario.
-
-Replace this pending list with links to the submitted report and readable diagram exports before submission.
 
 ## Recorded presentation
 
-Video link: **Pending final recording/upload.**
-
-The following timestamps are planned in the current report. Verify them against the final recording before submission.
+Video link: https://youtu.be/DM6qRkczwWE
 
 | Segment | Presenter | Planned timestamp |
 |---|---|---|
@@ -177,8 +166,6 @@ The following timestamps are planned in the current report. Verify them against 
 | Class diagrams and evidence of stage changes | Liow Zi Hao Samuel | 06:36–09:57 |
 | Selected use case and sequence diagram | Harish Kumaran Solaiyan | 09:57–12:30 |
 | Individual contributions and key learning | Benjamin Lee Jun Hua | 12:30– 14:16 |
-
-The approximately 15-minute recording must include a contribution from every member. Ensure the final recording also covers the overview, contributions and learning, and that the link remains accessible to graders.
 
 ## Individual AI communication histories
 
@@ -192,16 +179,3 @@ Each member keeps full project-related prompts, replies and follow-up exchanges 
 | Harish Kumaran Solaiyan | [harishkumaran1405-patch-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/harishkumaran1405-patch-1) | [stage3-ai-history.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/harishkumaran1405-patch-1/ai-history%3Astage-3%3Achat-01.md) |
 | Benjamin Lee Jun Hua | [benjaminwe4-patch-1-1](https://github.com/AeroaceLex/Restaurant-Rush/tree/benjaminwe4-patch-1-1) | [stage3-ai-history.md](https://github.com/AeroaceLex/Restaurant-Rush/blob/benjaminwe4-patch-1-1/AI-history.md) |
 
-The group must check completeness and update these links after any rename. Signed original-work and individual GAI declarations accompany the final submission.
-
-## Submission checklist
-
-- [ ] All three final stage versions compile and run independently.
-- [ ] Victory and defeat replays match documented results.
-- [ ] Report and diagrams match the submitted source.
-- [ ] All five individual reflections are complete.
-- [ ] Full AI histories are linked for every member.
-- [ ] Final video link and actual timestamps are included.
-- [ ] Signed course declarations are included.
-- [ ] Final PDF, source, README and video/link are packaged in the required group archive.
-- [ ] All submission links are accessible to graders.

@@ -216,15 +216,3 @@ behaviour is reached through the existing `Customer` methods (`getSatisfactionLo
 **Unchanged:** all customer classes (the Critic's rule picks a combo without any change), `Order`,
 `Chef`, `Cashier`, `Staff`, `Assignable`, `Objective`, `ArrivalSchedule`. `ComboMeal` works
 everywhere a `MenuItem` did, so ordering, cooking and billing needed no changes.
-
-## Video
-
-| # | Segment | Timestamp |
-|---|---|---|
-| 1 | The game launching from the submitted project | `mm:ss` |
-| 2 | Meaningful manager choices, including a decision where staff are constrained | `mm:ss` |
-| 3 | A dish going READY -> SERVED -> payment | `mm:ss` |
-| 4 | A VIP or Critic behaviour | `mm:ss` |
-| 5 | A Stage 3 feature | `mm:ss` |
-| 6 | One victory and one defeat | `mm:ss` |
-| 7 | The stage tag comparisons and the diagrams | `mm:ss` |
